@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.single-dash-FQ-
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.back-FQ-img
+{
+    width: 60.3%;
+    height: 100% !important;
+    background-image: url(./../img/back-img-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FQ-right-info 
+{
+    width:39%;
+}
+.FQ-right-info > div
+{
+    width: 95%;
+    margin: 10rem auto;
+    text-align: center;
+}
+.FQ-right-info > div .FQ-title 
+{
+    margin-bottom: 50px;
+}
+.FQ-right-info > div .FQ-title img
+{
+    display: block;
+    width: 64px;
+    margin: 10px auto;
+    
+}
+.FQ-right-info > div .FQ-title span
+{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #414042;
+
+}
+
+.FQ-right-info > div .FQ-QR-MOUNTEN #qrcode
+{
+    width: max-content;
+    margin: 60px auto;
+}
+
+.FQ-right-info > div .FQ-QR-MOUNTEN h2
+{
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 40px;
+    color: #282828;
+
+}
+.FQ-right-info > div .FQ-QR-MOUNTEN p , .FQ-right-info > div .FQ-QR-MOUNTEN span
+{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #282828;
+}
+
+.FQ-LINKS-preez
+{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+}
+.FQ-LINKS-preez-2
+{
+    display: none;
+    width: 30%;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+.span-fq-keepIn span
+{
+    display: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+@media (max-width:992px) {
+    .FQ-title
+    {
+        display: none;
+    }
+    .single-dash-FQ-
+    {
+        position: relative;
+    }
+    .back-FQ-img
+    {
+        width: 100%;
+    }
+    .FQ-right-info 
+    {
+        width:100%;
+        position: absolute;
+        background-color: #2828282d;
+    }
+    .back-fq-qr
+    {
+        width: 240px;
+        height: 240px;
+        margin: 0 auto;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .FQ-right-info > div .FQ-QR-MOUNTEN h2
+    {
+        padding-top: 40px;
+        color: #FFFDFD;
+    }
+    .FQ-right-info > div .FQ-QR-MOUNTEN p , .FQ-right-info > div .FQ-QR-MOUNTEN span
+    {
+        font-size: 16px;
+        color: #FFFDFD;
+    }
+    .FQ-right-info > div .FQ-QR-MOUNTEN span a
+    {
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFDFD;
+    }
+    .FQ-LINKS-preez
+    {
+        display: none;
+    }
+    .FQ-LINKS-preez-2
+    {
+        display: flex ;
+        height: 30px;
+        align-items: center;
+        margin: 0 auto !important;
+    }
+    .span-fq-keepIn span
+    {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding: 50px 0 10px 0;
+    }
+}
+
+@media (max-width:348px)
+{
+    .FQ-right-info > div .FQ-QR-MOUNTEN h2
+    {
+        font-size: 26px;
+    }
+    .FQ-LINKS-preez-2
+    {
+        width: 50%;
+    }
+}
